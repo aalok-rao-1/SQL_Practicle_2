@@ -38,7 +38,7 @@ INSERT INTO student Values(102, 'Rahul', 'rahul@mail.com', 2, '987654321098' );
 
 INSERT INTO course Values(501, 'DBMS', 1 ),(502, 'Circuits', 2);
 
-INSERT INTO TABLE student(phone) values('123456789012');
+INSERT INTO course Values (503,'PHYSICS',5);
 
 INSERT INTO enrollment Values (101, 501, 3, 'A');
 INSERT INTO enrollment Values (101, 502, 3, 'B'); -- same student, different course; allowed
